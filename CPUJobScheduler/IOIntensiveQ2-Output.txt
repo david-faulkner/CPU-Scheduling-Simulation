@@ -1,0 +1,106 @@
+0: 
+1: 
+2: 
+3: P0 arrives - New process changes state to Ready
+P0 changes state from Ready to Running
+4: 
+5: CPU: P0; IO: empty; Ready Queue: empty; IO Queue: empty
+P1 arrives - New process changes state to Ready
+P0 changes state from Running to Blocked
+P1 changes state from Ready to Running
+6: P2 arrives - New process changes state to Ready
+P1 changes state from Running to Blocked
+P2 changes state from Ready to Running
+7: P2 changes state from Running to Blocked
+8: 
+9: 
+10: CPU: empty; IO: P0; Ready Queue: empty; IO Queue: P1, P2
+P0 changes state from Blocked to Ready
+P0 changes state from Ready to Running
+11: 
+12: P0 changes state from Running to Blocked
+13: 
+14: 
+15: CPU: empty; IO: P1; Ready Queue: empty; IO Queue: P2, P0
+
+16: 
+17: 
+18: 
+19: 
+20: CPU: empty; IO: P1; Ready Queue: empty; IO Queue: P2, P0
+P1 changes state from Blocked to Ready
+P1 changes state from Ready to Running
+21: P1 changes state from Running to Terminated
+22: 
+23: 
+24: 
+25: CPU: empty; IO: P2; Ready Queue: empty; IO Queue: P0
+
+26: 
+27: 
+28: 
+29: 
+30: CPU: empty; IO: P2; Ready Queue: empty; IO Queue: P0
+
+31: 
+32: 
+33: 
+34: 
+35: CPU: empty; IO: P2; Ready Queue: empty; IO Queue: P0
+P2 changes state from Blocked to Ready
+P2 changes state from Ready to Running
+36: P2 changes state from Running to Blocked
+37: 
+38: 
+39: 
+40: CPU: empty; IO: P0; Ready Queue: empty; IO Queue: P2
+
+41: 
+42: P0 changes state from Blocked to Ready
+P0 changes state from Ready to Running
+43: 
+44: P0 preempted - changes state from Running to Ready
+P0 changes state from Ready to Running
+45: CPU: P0; IO: P2; Ready Queue: empty; IO Queue: empty
+P0 changes state from Running to Terminated
+46: 
+47: 
+48: 
+49: 
+50: CPU: empty; IO: P2; Ready Queue: empty; IO Queue: empty
+
+51: 
+52: 
+53: 
+54: P2 changes state from Blocked to Ready
+P2 changes state from Ready to Running
+55: CPU: P2; IO: empty; Ready Queue: empty; IO Queue: empty
+
+56: P2 preempted - changes state from Running to Ready
+P2 changes state from Ready to Running
+57: 
+58: P2 changes state from Running to Blocked
+59: 
+60: CPU: empty; IO: P2; Ready Queue: empty; IO Queue: empty
+
+61: 
+62: 
+63: 
+64: 
+65: CPU: empty; IO: P2; Ready Queue: empty; IO Queue: empty
+
+66: P2 changes state from Blocked to Ready
+P2 changes state from Ready to Running
+67: 
+68: P2 preempted - changes state from Running to Ready
+P2 changes state from Ready to Running
+69: 
+70: CPU: P2; IO: empty; Ready Queue: empty; IO Queue: empty
+P2 preempted - changes state from Running to Ready
+P2 changes state from Ready to Running
+71: P2 changes state from Running to Terminated
+Metrics:
+CPU utilization: 31.944444444444443%
+Average Turn Around Time: 42.0 time units
+Average wait time: 0.0 time units
+Average IO wait time: 15.333333333333334 time units

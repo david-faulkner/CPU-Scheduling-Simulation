@@ -1,0 +1,89 @@
+0: no event
+1: no event
+2: no event
+3: Start of 3: P0 arrives - new process - enters ready queue - CPU burst of 2
+Start of 3: CPU empty - P0 moved from ready queue into CPU - CPU burst of 2
+4: no event
+5: Start of 5: P1 arrives - new process - enters ready queue - CPU burst of 1
+Start of 5: P0 CPU burst completed at end of 4 - moved to IO queue - IO burst of 5
+Start of 5: CPU empty - P1 moved from ready queue into CPU - CPU burst of 1
+Start of 5: IO empty - P0 moved into IO - IO burst of 5
+6: Start of 6: P2 arrives - new process - enters ready queue - CPU burst of 1
+Start of 6: P1 CPU burst completed at end of 5 - moved to IO queue - IO burst of 10
+Start of 6: CPU empty - P2 moved from ready queue into CPU - CPU burst of 1
+7: Start of 7: P2 CPU burst completed at end of 6 - moved to IO queue - IO burst of 15
+8: no event
+9: no event
+10: Start of 10: P0 IO burst completed at end of 9 - moved to ready queue - CPU burst of 2
+Start of 10: CPU empty - P0 moved from ready queue into CPU - CPU burst of 2
+Start of 10: IO empty - P1 moved into IO - IO burst of 10
+11: no event
+12: Start of 12: P0 CPU burst completed at end of 11 - moved to IO queue - IO burst of 7
+13: no event
+14: no event
+15: no event
+16: no event
+17: no event
+18: no event
+19: no event
+20: Start of 20: P1 IO burst completed at end of 19 - moved to ready queue - CPU burst of 2
+Start of 20: CPU empty - P1 moved from ready queue into CPU - CPU burst of 2
+Start of 20: IO empty - P2 moved into IO - IO burst of 15
+21: End of 21: P1 CPU burst completed - no more events for P1 - process terminated: Turn Around Time: 17, Wait time: 0, I/O wait: 4
+22: no event
+23: no event
+24: no event
+25: no event
+26: no event
+27: no event
+28: no event
+29: no event
+30: no event
+31: no event
+32: no event
+33: no event
+34: no event
+35: Start of 35: P2 IO burst completed at end of 34 - moved to ready queue - CPU burst of 1
+Start of 35: CPU empty - P2 moved from ready queue into CPU - CPU burst of 1
+Start of 35: IO empty - P0 moved into IO - IO burst of 7
+36: Start of 36: P2 CPU burst completed at end of 35 - moved to IO queue - IO burst of 12
+37: no event
+38: no event
+39: no event
+40: no event
+41: no event
+42: Start of 42: P0 IO burst completed at end of 41 - moved to ready queue - CPU burst of 4
+Start of 42: CPU empty - P0 moved from ready queue into CPU - CPU burst of 4
+Start of 42: IO empty - P2 moved into IO - IO burst of 12
+43: no event
+44: no event
+45: End of 45: P0 CPU burst completed - no more events for P0 - process terminated: Turn Around Time: 43, Wait time: 0, I/O wait: 23
+46: no event
+47: no event
+48: no event
+49: no event
+50: no event
+51: no event
+52: no event
+53: no event
+54: Start of 54: P2 IO burst completed at end of 53 - moved to ready queue - CPU burst of 4
+Start of 54: CPU empty - P2 moved from ready queue into CPU - CPU burst of 4
+55: no event
+56: no event
+57: no event
+58: Start of 58: P2 CPU burst completed at end of 57 - moved to IO queue - IO burst of 8
+Start of 58: IO empty - P2 moved into IO - IO burst of 8
+59: no event
+60: no event
+61: no event
+62: no event
+63: no event
+64: no event
+65: no event
+66: Start of 66: P2 IO burst completed at end of 65 - moved to ready queue - CPU burst of 6
+Start of 66: CPU empty - P2 moved from ready queue into CPU - CPU burst of 6
+67: no event
+68: no event
+69: no event
+70: no event
+71: End of 71: P2 CPU burst completed - no more events for P2 - process terminated: Turn Around Time: 66, Wait time: 0, I/O wait: 19

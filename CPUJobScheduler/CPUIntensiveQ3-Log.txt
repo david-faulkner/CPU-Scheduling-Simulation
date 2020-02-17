@@ -1,0 +1,86 @@
+0: no event
+1: no event
+2: no event
+3: Start of 3: P0 arrives - new process - enters ready queue - CPU burst of 2
+Start of 3: CPU empty - P0 moved from ready queue into CPU - CPU burst of 2
+4: no event
+5: Start of 5: P1 arrives - new process - enters ready queue - CPU burst of 4
+Start of 5: P0 CPU burst completed at end of 4 - moved to IO queue - IO burst of 5
+Start of 5: CPU empty - P1 moved from ready queue into CPU - CPU burst of 4
+Start of 5: IO empty - P0 moved into IO - IO burst of 5
+6: Start of 6: P2 arrives - new process - enters ready queue - CPU burst of 8
+7: no event
+8: Start of 8: P1 preempted from CPU at end of 7 - moved to ready queue - CPU burst of 1
+Start of 8: CPU empty - P2 moved from ready queue into CPU - CPU burst of 8
+9: no event
+10: Start of 10: P0 IO burst completed at end of 9 - moved to ready queue - CPU burst of 8
+11: Start of 11: P2 preempted from CPU at end of 10 - moved to ready queue - CPU burst of 5
+Start of 11: CPU empty - P1 moved from ready queue into CPU - CPU burst of 1
+End of 11: P1 CPU burst completed - no more events for P1 - process terminated: Turn Around Time: 7, Wait time: 3, I/O wait: 0
+12: Start of 12: CPU empty - P0 moved from ready queue into CPU - CPU burst of 8
+13: no event
+14: no event
+15: Start of 15: P0 preempted from CPU at end of 14 - moved to ready queue - CPU burst of 5
+Start of 15: CPU empty - P2 moved from ready queue into CPU - CPU burst of 5
+16: no event
+17: no event
+18: Start of 18: P2 preempted from CPU at end of 17 - moved to ready queue - CPU burst of 2
+Start of 18: CPU empty - P0 moved from ready queue into CPU - CPU burst of 5
+19: no event
+20: no event
+21: Start of 21: P0 preempted from CPU at end of 20 - moved to ready queue - CPU burst of 2
+Start of 21: CPU empty - P2 moved from ready queue into CPU - CPU burst of 2
+22: no event
+23: Start of 23: P2 CPU burst completed at end of 22 - moved to IO queue - IO burst of 2
+Start of 23: CPU empty - P0 moved from ready queue into CPU - CPU burst of 2
+Start of 23: IO empty - P2 moved into IO - IO burst of 2
+24: no event
+25: Start of 25: P2 IO burst completed at end of 24 - moved to ready queue - CPU burst of 10
+Start of 25: P0 CPU burst completed at end of 24 - moved to IO queue - IO burst of 7
+Start of 25: CPU empty - P2 moved from ready queue into CPU - CPU burst of 10
+Start of 25: IO empty - P0 moved into IO - IO burst of 7
+26: no event
+27: no event
+28: Start of 28: P2 preempted from CPU at end of 27 - moved to ready queue - CPU burst of 7
+Start of 28: CPU empty - P2 moved from ready queue into CPU - CPU burst of 7
+29: no event
+30: no event
+31: Start of 31: P2 preempted from CPU at end of 30 - moved to ready queue - CPU burst of 4
+Start of 31: CPU empty - P2 moved from ready queue into CPU - CPU burst of 4
+32: Start of 32: P0 IO burst completed at end of 31 - moved to ready queue - CPU burst of 4
+33: no event
+34: Start of 34: P2 preempted from CPU at end of 33 - moved to ready queue - CPU burst of 1
+Start of 34: CPU empty - P0 moved from ready queue into CPU - CPU burst of 4
+35: no event
+36: no event
+37: Start of 37: P0 preempted from CPU at end of 36 - moved to ready queue - CPU burst of 1
+Start of 37: CPU empty - P2 moved from ready queue into CPU - CPU burst of 1
+38: Start of 38: P2 CPU burst completed at end of 37 - moved to IO queue - IO burst of 2
+Start of 38: CPU empty - P0 moved from ready queue into CPU - CPU burst of 1
+Start of 38: IO empty - P2 moved into IO - IO burst of 2
+End of 38: P0 CPU burst completed - no more events for P0 - process terminated: Turn Around Time: 36, Wait time: 10, I/O wait: 0
+39: no event
+40: Start of 40: P2 IO burst completed at end of 39 - moved to ready queue - CPU burst of 7
+Start of 40: CPU empty - P2 moved from ready queue into CPU - CPU burst of 7
+41: no event
+42: no event
+43: Start of 43: P2 preempted from CPU at end of 42 - moved to ready queue - CPU burst of 4
+Start of 43: CPU empty - P2 moved from ready queue into CPU - CPU burst of 4
+44: no event
+45: no event
+46: Start of 46: P2 preempted from CPU at end of 45 - moved to ready queue - CPU burst of 1
+Start of 46: CPU empty - P2 moved from ready queue into CPU - CPU burst of 1
+47: Start of 47: P2 CPU burst completed at end of 46 - moved to IO queue - IO burst of 5
+Start of 47: IO empty - P2 moved into IO - IO burst of 5
+48: no event
+49: no event
+50: no event
+51: no event
+52: Start of 52: P2 IO burst completed at end of 51 - moved to ready queue - CPU burst of 6
+Start of 52: CPU empty - P2 moved from ready queue into CPU - CPU burst of 6
+53: no event
+54: no event
+55: Start of 55: P2 preempted from CPU at end of 54 - moved to ready queue - CPU burst of 3
+Start of 55: CPU empty - P2 moved from ready queue into CPU - CPU burst of 3
+56: no event
+57: End of 57: P2 CPU burst completed - no more events for P2 - process terminated: Turn Around Time: 52, Wait time: 12, I/O wait: 0
